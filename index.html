@@ -13,6 +13,11 @@
 
 
     <style>
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
@@ -98,26 +103,30 @@
             </div>            
         </div>
         <div class="max-vw-100 p-3 d-lg-flex flex-lg-equal w-100 my-md-3 align-items-center containter">
-            <div class="text-center overflow-hidden col-lg-4">
+            <div class="text-center overflow-hidden col-lg-6">
                 <h2 lass="display-4 fw-normal">About me</h2>
-                <p class="lead fw-normal">I am a recent graduate who studied computer science. I have worked in web development, but also have a passion for 
+                <p class="lead fw-normal pt-0 p-5 ">I am a recent graduate who studied computer science. I have worked in web development, but also have a passion for 
                     software development. I am passionate about learning new things, and am always eager to try something new.
                     I have proved my leadership skills through a leadership program in Taekwon do, the two day Amped leadership course through Lakehead University, as well as through my responsibilities as a manager during my time at College Pro.
                     Although I was born and grew up in Alberta, I have grown to call Guelph, ON my home. I am a strong organized independent worker who also loves coordinating in a strong team envirnment.
                 </p>
+            </div>
+            <div class="overflow-hidden col-lg-6">
+                <div class="row max-vw-100 p-3 w-100 my-md-3 align-items-center containter text-center">
+                    <div class="text-center overflow-hidden col-xl-6 col-lg-6 col-8 ms-xl-5 p-xl-0 align-items-center mx-auto">
+                        <img class="h-100 w-100 img-fluid rounded-circle shadow-5-strong border border-5" src="img/face.jpg" width="500" height="600">
+                    </div>  
+                    <div class="mx-auto overflow-hidden col-xl-4 d-flex align-items-center p-5">
+                        <div class="mx-auto text-start overflow-hidden">
+                            <h2 lass="display-4 fw-normal">Details</h2>
+                            <p class="lead lh-1 fw-bold">Name:</p>
+                            <p class="lead lh-1 fw-normal">Pierce Baker</p>
+                            <p class="lead lh-1 fw-bold">Location:</p>
+                            <p class="lead lh-1 fw-normal">Guelph, ON, Canada</p>
+                        </div>               
+                    </div> 
+                </div>
             </div>     
-            <div class="text-center overflow-hidden col-lg-4 ms-lg-5">
-                <img class="h-100 img-fluid rounded-circle shadow-5-strong border border-5" src="img/face.jpg" width="500" height="600">
-            </div>  
-            <div class="mx-auto overflow-hidden col-lg-4 d-flex align-items-center">
-                <div class="mx-auto text-start overflow-hidden">
-                    <h2 lass="display-4 fw-normal">Details</h2>
-                    <p class="lead lh-1 fw-bold">Name:</p>
-                    <p class="lead lh-1 fw-normal">Pierce Baker</p>
-                    <p class="lead lh-1 fw-bold">Location:</p>
-                    <p class="lead lh-1 fw-normal">Guelph, ON, Canada</p>
-                </div>               
-            </div>         
         </div>
 
         <!-- Experience -->
@@ -128,7 +137,7 @@
             </div>            
         </div>
         <div class="max-vw-100 p-3 d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 align-items-center container">
-            <div class="col-md-8 ">
+            <div class="col-12">
                 <h2 lass="display-4 fw-normal"><u>Education</u></h2>
                 <div class="row"><p></p></div>
                 <div class="row"><p></p></div>
@@ -181,10 +190,20 @@
             
         </div>
         <div class="max-vw-100 p-3 d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 align-items-center container">
-            <div class="col-md-8">
+            <div class="col-12">
                 <h2 lass="display-4 fw-normal"><u>Career</u></h2>
                 <div class="row"><p></p></div>
                 <div class="row"><p></p></div>
+                <div class="row">
+                    <div class="col-4 text-end">
+                        <p class="lead fw-normal fs-4 fw-bold">Client Services Coordinator	</p>
+                        <p class="lead fw-normal fs-6">2023-Present</p>
+                    </div>
+                    <div class="col-8 text-start">
+                        <p class="lead fw-normal fs-5">Acosta Canada</p>
+                        <p class="lead fw-normal fs-6">My main priority in this position was to support our country wide team of over 50 technicians with administrative tasks such as taking payments, ordering parts, and processing jobs. However, I was also responsible for answering phone lines, assisting customers with scheduling, and selling extended warranty. Due to my strong performance and high attention to detail, I was trained on several more advanced administration projects throughout my time here.</p>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-4 text-end">
                         <p class="lead fw-normal fs-4 fw-bold">Full Stack Web Developer</p>
